@@ -1,0 +1,94 @@
+﻿<!DOCTYPE HTML>
+
+<html>
+<head>
+	<title>Информация</title>
+	<meta charset="utf-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+	<link rel="stylesheet" href="/css/main.css" />
+	<noscript><link rel="stylesheet" href="/css/noscript.css" /></noscript>
+</head>
+<body class="is-preload">
+
+	<!-- Header -->
+	<header id="header">
+		<a asp-action="Index" class="title">АГРО-М</a>
+		<nav>
+			<ul>
+				<li><a asp-action="Index">Главная</a></li>
+				<li><a asp-action="Sell" class="active">Покупка</a></li>
+			</ul>
+		</nav>
+	</header>
+
+	<!-- Wrapper -->
+	<div id="wrapper">
+
+		<!-- Main -->
+		<section id="main" class="wrapper">
+			<div class="inner">
+				<h1 class="major">Покупка</h1>
+
+
+				<div class="features">
+
+
+					<section>
+						<span class="icon solid major fa-ruble-sign"></span>
+						<h3>
+							Пшеница
+							<br>
+							<br>
+
+							<a class="button" asp-action="WheatListToBuy" value="Продолжить" name="wheatConfirm">
+								Продолжить
+							</a>
+
+						</h3>
+					</section>
+
+
+					<section>
+						<span class="icon solid major fa-ruble-sign"></span>
+						<h3>
+							Рожь
+							<br>
+							<br>
+
+							<a class="button" asp-action="RyeListToBuy" value="Продолжить" name="ryeConfirm">
+								Продолжить
+							</a>
+
+						</h3>
+					</section>
+
+
+
+
+				</div>
+			</div>
+		</section>
+
+	</div>
+
+	<!-- Footer -->
+	<footer id="footer" class="wrapper alt">
+		<div class="inner">
+			<ul class="menu">
+				<li>&copy; Untitled. All rights reserved.</li>
+			</ul>
+		</div>
+	</footer>
+
+	<!-- Scripts -->
+	<script src="/js/funcs.js"></script>
+	<script src="/js/jquery.min.js"></script>
+	<script src="/js/jquery.scrollex.min.js"></script>
+	<script src="/js/jquery.scrolly.min.js"></script>
+	<script src="/js/browser.min.js"></script>
+	<script src="/js/breakpoints.min.js"></script>
+	<script src="/js/util.js"></script>
+	<script src="/js/main.js"></script>
+
+</body>
+</html>
